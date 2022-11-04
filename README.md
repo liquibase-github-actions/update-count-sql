@@ -6,7 +6,7 @@ Generate the SQL to deploy the specified number of changes
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/update-count-sql@v4.17.1
+- uses: liquibase-github-actions/update-count-sql@v4.17.2
   with:
     # The root changelog
     # string
@@ -95,7 +95,7 @@ The liquibase update count sql action accepts all valid liquibase global options
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/update-count-sql@v4.17.1
+  - uses: liquibase-github-actions/update-count-sql@v4.17.2
     with:
       changelogFile: ""
       count: ""
